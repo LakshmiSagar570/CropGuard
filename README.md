@@ -1,7 +1,6 @@
 # CropGuard
-
 ## Project Overview
-CropGuard is a comprehensive solution designed to assist farmers in managing crop health and monitoring for various diseases. The application leverages advanced technology to provide insights and recommendations for effective crop management.
+CropGuard is a comprehensive solution designed to assist farmers in managing crop health and monitoring for various diseases. The application leverages advanced technology to provide insights and recommendations for effective crop management
 
 ## Features
 - Disease detection and identification
