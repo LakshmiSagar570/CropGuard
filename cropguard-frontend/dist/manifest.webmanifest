@@ -1,0 +1,10 @@
+{
+  "name": "CropGuard AI",
+  "short_name": "CropGuard",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f3f7f3",
+  "theme_color": "#2f7d4f",
+  "description": "Instant crop disease diagnosis and advisory",
+  "icons": []
+}
