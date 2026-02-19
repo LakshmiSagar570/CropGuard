@@ -52,6 +52,10 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
+.container.single {
+  grid-template-columns: 1fr;
+  max-width: 520px;
+}
 
 .card {
   background: var(--card);
@@ -63,6 +67,23 @@ body {
 .card-title {
   font-weight: 700;
   margin-bottom: 12px;
+}
+.profile-box {
+  background: #f4faf5;
+  border: 1px solid #cde5d1;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  display: grid;
+  gap: 6px;
+}
+.profile-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+.profile-title.settings {
+  margin-top: 6px;
 }
 
 .support-note {
@@ -129,6 +150,31 @@ input, select {
 .btn.secondary {
   margin-top: 12px;
   background: #1f6c44;
+}
+.btn.logout {
+  margin: 14px auto 0;
+  max-width: 180px;
+  display: block;
+}
+
+.auth-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.tab {
+  border: 1px solid #cfd8cf;
+  border-radius: 10px;
+  background: #fff;
+  padding: 8px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.tab.active {
+  background: #e8f2ea;
+  border-color: #9bc8aa;
+  font-weight: 600;
 }
 
 .error {
